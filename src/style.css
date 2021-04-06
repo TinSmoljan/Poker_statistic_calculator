@@ -1,0 +1,48 @@
+body {
+  background: #d6d6d6;
+  text-align: center;
+}
+
+img{
+  margin-bottom: 2em;
+}
+
+.pozicije {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.ulozi {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.pozicija {
+  border-radius: 10%;
+  background: #adadad;
+  box-shadow: 25px 25px 51px #c4c4c4, -25px -25px 51px #ffffff;
+  transform: scale(2);
+  padding: 4px;
+  cursor: pointer;
+}
+
+.ulog {
+  border-radius: 100%;
+  background: #adadad;
+  box-shadow: 25px 25px 51px #c4c4c4, -25px -25px 51px #ffffff;
+  transform: scale(2);
+  padding: 4px 4px 4px 4px;
+  cursor: pointer;
+}
+
+.aktivno {
+  background: #474747;
+}
+
+#izbrisi {
+  width: 3em;
+  height: 3em;
+  background: black;
+  color: white;
+  cursor: pointer;
+}
