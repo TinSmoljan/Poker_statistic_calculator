@@ -264,6 +264,11 @@ window.addEventListener("DOMContentLoaded", () => {
         ostatak = vrijednost_pozicije.replace(temp, "");
         vrijednost_pozicije = "";
         addChildAndRender(ostatak, "pozicija");
+      } else if (vrijednost_pozicije.length > 7) {
+        removeAllChildNodes(izlaz);
+        ostatak = vrijednost_pozicije.replace(temp, "");
+        vrijednost_pozicije = "";
+        addChildAndRender(ostatak, "pozicija");
       }
     } else if (slucaj === "ulog") {
       //ako deselektiramo ulog ispisujemo ništa jer samo jedan ulog smije bit selektiran
